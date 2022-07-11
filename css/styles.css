@@ -23,9 +23,13 @@ body {
 
 .main-menu__link {
     text-transform: uppercase;
-    color: royalblue;
+    color: lightcoral;
     padding: 0.5rem 0;
     text-decoration: none;
     letter-spacing: 5px;
     line-height: 4rem;
+}
+
+.main-menu__link--active {
+    border-bottom: 2px solid;
 }
