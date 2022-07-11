@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.main-nav {
+    background-color: #333;
+}
+
+.main-menu {
+    list-style: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.main-menu__item {
+    text-decoration: none;
+}
+
+.main-menu__link {
+    text-transform: uppercase;
+    color: royalblue;
+    padding: 0.5rem 0;
+    text-decoration: none;
+    letter-spacing: 5px;
+    line-height: 4rem;
+}
